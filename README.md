@@ -98,4 +98,6 @@ x_norm=np.linalg.norm(x, ord=None, axis=None, keepdims=False)
 
 | ord | 说明 | 计算方法|
 |----|----| ---- |
-|默认|1 |a|
+|默认|$l_2$ |$\sqrt(x_1^{2)+x_2^{2)+...+x_n^{2)$|
+|ord=1|$l_1$ ||$x_1$|+|$x_2$|+...+|$x_n$||
+|ord=np.inf|无穷范数|max(|$x_i$|)|
