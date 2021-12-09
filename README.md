@@ -98,4 +98,4 @@ x_norm=np.linalg.norm(x, ord=None, axis=None, keepdims=False)
 
 | ord | 说明 | 计算方法|
 |----|----| ---- |
-|默认|1 |1|
+|默认|1 |a|
