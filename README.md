@@ -89,3 +89,13 @@ Evolution of the accuracy of the network on the test set when added the final pe
  
  ![Accuracy per iteration](https://raw.githubusercontent.com/NetoPedro/Universal-Adversarial-Perturbations-Pytorch/master/accuracy.png)
 
+### 向量的范数
+linalg=linear（线性）+algebra（代数），norm则表示范数。
+```
+x_norm=np.linalg.norm(x, ord=None, axis=None, keepdims=False)
+```
+其中，x: 表示矩阵（也可以是一维）， ord表示范数类型
+
+| ord | 说明 | 计算方法|
+|----|----| ---- |
+|默认|1 |1|
